@@ -46,3 +46,7 @@
 .border-tan {
   border-color: var(--color-tan) !important;
 }
+
+.bg-color-test {
+  background-color: var(--color-beige) !important;
+}
