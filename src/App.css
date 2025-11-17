@@ -4,6 +4,11 @@
   --color-beige: #d9cfc7;
   --color-tan: #c9b59c;
 }
+html, body {
+  overflow-x: hidden;  
+  margin: 0;
+  padding: 0;
+}
 
 /* Background colors */
 .bg-cream {
@@ -45,8 +50,4 @@
 }
 .border-tan {
   border-color: var(--color-tan) !important;
-}
-
-.bg-color-test {
-  background-color: var(--color-beige) !important;
 }
