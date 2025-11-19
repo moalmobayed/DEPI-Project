@@ -1,0 +1,94 @@
+body {
+  background-color: var(--color-cream);
+}
+
+.perfume-card {
+  background-color: var(--color-cream);
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.perfume-card:hover {
+  background-color: var(--color-beige);
+}
+
+.perfume-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.perfume-card:hover .perfume-img {
+  transform: scale(1.08);
+}
+
+.info-overlay {
+  position: static; 
+  bottom: auto;
+  left: auto;
+  width: 100%;
+  text-align: center;
+  opacity: 1;
+  color: black; 
+  font-weight: bold;
+  text-shadow: none;
+  margin-top: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+
+.perfume-card:hover .info-overlay {
+  opacity: 1;
+}
+
+.product-title {
+  font-size: 14px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 16px;
+  margin: 0;
+}
+
+.cart-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  background: var(--color-cream);
+  color: black;
+}
+
+.cart-btn:hover {
+  background: var(--color-tan);
+  color: white;
+}
+
+h1 {
+  background: linear-gradient(90deg, var(--color-tan), #a68e74);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
