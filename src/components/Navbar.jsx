@@ -58,12 +58,15 @@ function Navbar() {
           <Nav className="ms-3">
             <SignedOut>
               <SignInButton mode="modal">
-                <Nav.Link as="button" className="btn btn-outline-light me-2">
+                <Nav.Link
+                  as="button"
+                  className="btn btn-outline-light custom-nav-link me-2"
+                >
                   Sign In
                 </Nav.Link>
               </SignInButton>
               <SignUpButton mode="modal">
-                <Nav.Link as="button" className="btn btn-light">
+                <Nav.Link as="button" className="btn btn-light custom-nav-link">
                   Sign Up
                 </Nav.Link>
               </SignUpButton>
