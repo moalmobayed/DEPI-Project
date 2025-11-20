@@ -1,5 +1,12 @@
 import { Navbar as BsNavbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 function Navbar() {
   return (
@@ -23,6 +30,23 @@ function Navbar() {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
+          </Nav>
+          <Nav className="ms-3">
+            <SignedOut>
+              <SignInButton mode="modal">
+                <Nav.Link as="button" className="btn btn-outline-light me-2">
+                  Sign In
+                </Nav.Link>
+              </SignInButton>
+              <SignUpButton mode="modal">
+                <Nav.Link as="button" className="btn btn-light">
+                  Sign Up
+                </Nav.Link>
+              </SignUpButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton afterSignOutUrl="/" />
+            </SignedIn>
           </Nav>
         </BsNavbar.Collapse>
       </Container>
