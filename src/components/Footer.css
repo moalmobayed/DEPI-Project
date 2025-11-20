@@ -1,0 +1,122 @@
+.footer-custom {
+    background-color: #EFE9E3;
+    color: #5a4a3a;
+    padding: 2rem 0 1rem;
+    margin-top: auto;
+    border-top: 3px solid #C9B59C;
+  }
+  
+  .footer-title {
+    color: #C9B59C;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-text {
+    color: #5a4a3a;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-links {
+    line-height: 2;
+  }
+  
+  .footer-link {
+    color: #5a4a3a !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-link:hover {
+    color: #C9B59C !important;
+    transform: translateX(5px);
+  }
+  
+  .footer-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #C9B59C;
+    transition: width 0.3s ease;
+  }
+  
+  .footer-link:hover::after {
+    width: 100%;
+  }
+  
+  .footer-contact {
+    line-height: 2;
+  }
+  
+  .contact-item {
+    color: #5a4a3a;
+    transition: all 0.3s ease;
+    padding: 0.3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-icon {
+    color: #C9B59C;
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    color: #C9B59C;
+    transform: translateX(5px);
+  }
+  
+  .contact-item:hover .contact-icon {
+    color: #5a4a3a;
+    transform: scale(1.2);
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    color: #C9B59C;
+    background-color: #F9F8F6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #C9B59C;
+  }
+  
+  .social-icon:hover {
+    background-color: #C9B59C;
+    color: #F9F8F6;
+    transform: scale(1.1);
+  }
+  
+  .footer-divider {
+    background-color: #C9B59C;
+    height: 2px;
+    opacity: 0.5;
+    margin: 1.5rem 0;
+  }
+  
+  .copyright {
+    color: #5a4a3a;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
