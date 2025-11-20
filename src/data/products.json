@@ -1,0 +1,487 @@
+{
+  "perfumes": [
+    {
+      "id": 1,
+      "name": "Chanel No. 5 Eau de Parfum",
+      "brand": "Chanel",
+      "category": "Women",
+      "price": 167,
+      "originalPrice": 239,
+      "discount": 30,
+      "rating": 5.0,
+      "reviewCount": 2,
+      "color": "Gold",
+      "colors": ["Gold"],
+      "sizes": ["50ml", "100ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
+      ],
+      "description": "The iconic Chanel No. 5 is a timeless classic. This legendary fragrance features an elegant bouquet of florals including rose, jasmine, and ylang-ylang. The base notes are warm sandalwood and vanilla, creating a sophisticated and unforgettable scent.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8+ hours)",
+        "sillage": "Strong",
+        "season": "All seasons",
+        "occasion": "Evening, Special occasions"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 2,
+      "name": "Dior Sauvage Eau de Toilette",
+      "brand": "Dior",
+      "category": "Men",
+      "price": 145,
+      "originalPrice": 195,
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 156,
+      "color": "Black",
+      "colors": ["Black"],
+      "sizes": ["60ml", "100ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800"
+      ],
+      "description": "Sauvage is a bold and fresh fragrance for men. Opening with Calabrian bergamot, it reveals middle notes of Sichuan pepper and lavender. The base features ambroxan and woody notes, creating a powerful and magnetic signature.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "All seasons",
+        "occasion": "Daily wear, Office"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 3,
+      "name": "Tom Ford Black Orchid",
+      "brand": "Tom Ford",
+      "category": "Unisex",
+      "price": 198,
+      "originalPrice": 250,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 89,
+      "color": "Black",
+      "colors": ["Black"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+        "https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800",
+        "https://images.unsplash.com/photo-1610465299996-e6c2496838d8?w=800"
+      ],
+      "description": "A luxurious and sensual fragrance. Black Orchid is a modern aphrodisiac featuring black truffle, ylang-ylang, and black currant. The base includes patchouli, incense, and dark chocolate for an intoxicating finish.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": false
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Very long-lasting (10+ hours)",
+        "sillage": "Very Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Romantic"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 4,
+      "name": "Yves Saint Laurent Mon Paris",
+      "brand": "Yves Saint Laurent",
+      "category": "Women",
+      "price": 132,
+      "originalPrice": 165,
+      "discount": 20,
+      "rating": 4.7,
+      "reviewCount": 124,
+      "color": "Pink",
+      "colors": ["Pink"],
+      "sizes": ["50ml", "90ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      ],
+      "description": "Mon Paris is a passionate and feminine fragrance. It opens with strawberry, raspberry, and pear, evolving into a heart of peony and datura. The base features white musk and patchouli for a romantic finish.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Romantic"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 5,
+      "name": "Versace Eros Pour Homme",
+      "brand": "Versace",
+      "category": "Men",
+      "price": 98,
+      "originalPrice": 125,
+      "discount": 22,
+      "rating": 4.6,
+      "reviewCount": 203,
+      "color": "Blue",
+      "colors": ["Blue"],
+      "sizes": ["50ml", "100ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
+      ],
+      "description": "Eros is a vibrant and passionate fragrance for men. It features fresh mint and green apple top notes, transitioning to tonka bean and geranium. The base includes vanilla, vetiver, and oakmoss.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Casual"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": false
+    },
+    {
+      "id": 6,
+      "name": "Jo Malone London Peony & Blush Suede",
+      "brand": "Jo Malone",
+      "category": "Women",
+      "price": 156,
+      "originalPrice": 195,
+      "discount": 20,
+      "rating": 4.8,
+      "reviewCount": 67,
+      "color": "Cream",
+      "colors": ["Cream"],
+      "sizes": ["30ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
+      ],
+      "description": "A luxurious floral fragrance with a modern twist. Red apple and peony are softened by the sensuality of suede. This sophisticated scent is perfect for the confident woman.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Cologne",
+        "longevity": "Moderate (5-7 hours)",
+        "sillage": "Light to Moderate",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Office"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 7,
+      "name": "Paco Rabanne 1 Million",
+      "brand": "Paco Rabanne",
+      "category": "Men",
+      "price": 118,
+      "originalPrice": 150,
+      "discount": 21,
+      "rating": 4.5,
+      "reviewCount": 178,
+      "color": "Gold",
+      "colors": ["Gold"],
+      "sizes": ["50ml", "100ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
+      ],
+      "description": "1 Million is a bold and luxurious fragrance. Opening with grapefruit and mint, it evolves into cinnamon and rose. The base features leather, amber, and patchouli for a confident signature.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": false
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Long-lasting (8+ hours)",
+        "sillage": "Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Special occasions"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 8,
+      "name": "Lancôme La Vie Est Belle",
+      "brand": "Lancôme",
+      "category": "Women",
+      "price": 142,
+      "originalPrice": 178,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 245,
+      "color": "Pink",
+      "colors": ["Pink"],
+      "sizes": ["50ml", "100ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800"
+      ],
+      "description": "La Vie Est Belle celebrates the beauty of life. This sweet and sophisticated fragrance features iris, patchouli, and gourmand notes of praline and vanilla. A modern classic for the joyful woman.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Very long-lasting (10+ hours)",
+        "sillage": "Strong",
+        "season": "All seasons",
+        "occasion": "Daily wear, Special occasions"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 9,
+      "name": "Burberry Brit for Her",
+      "brand": "Burberry",
+      "category": "Women",
+      "price": 89,
+      "originalPrice": 115,
+      "discount": 23,
+      "rating": 4.6,
+      "reviewCount": 98,
+      "color": "Beige",
+      "colors": ["Beige"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800"
+      ],
+      "description": "A playful and spirited fragrance for the young woman. Brit features lime, pear, and peony top notes, with almond and vanilla in the base. Fresh yet warm and comforting.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "Spring, Fall",
+        "occasion": "Daily wear, Casual"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": false
+    },
+    {
+      "id": 10,
+      "name": "Gucci Guilty Pour Homme",
+      "brand": "Gucci",
+      "category": "Men",
+      "price": 105,
+      "originalPrice": 135,
+      "discount": 22,
+      "rating": 4.4,
+      "reviewCount": 112,
+      "color": "Black",
+      "colors": ["Black"],
+      "sizes": ["50ml", "90ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800"
+      ],
+      "description": "Guilty Pour Homme is a bold and aromatic fragrance. Italian lemon and lavender open this modern scent, followed by orange blossom and neroli. The base features patchouli and cedarwood.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "All seasons",
+        "occasion": "Daily wear, Office"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 11,
+      "name": "Givenchy L'Interdit",
+      "brand": "Givenchy",
+      "category": "Women",
+      "price": 158,
+      "originalPrice": 198,
+      "discount": 20,
+      "rating": 4.7,
+      "reviewCount": 134,
+      "color": "White",
+      "colors": ["White"],
+      "sizes": ["50ml", "80ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      ],
+      "description": "L'Interdit is a tribute to bold femininity. Orange blossom and jasmine create a white floral heart, while vetiver and patchouli add depth. A daring and elegant fragrance.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "All seasons",
+        "occasion": "Evening, Special occasions"
+      },
+      "inStock": false,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 12,
+      "name": "Calvin Klein CK One",
+      "brand": "Calvin Klein",
+      "category": "Unisex",
+      "price": 45,
+      "originalPrice": 60,
+      "discount": 25,
+      "rating": 4.3,
+      "reviewCount": 289,
+      "color": "Silver",
+      "colors": ["Silver"],
+      "sizes": ["50ml", "100ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800",
+        "https://images.unsplash.com/photo-1610465299996-e6c2496838d8?w=800",
+        "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
+      ],
+      "description": "CK One is a fresh and iconic unisex fragrance. Citrus notes of lemon and mandarin blend with green tea, papaya, and amber. A timeless classic for everyday wear.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Light (4-6 hours)",
+        "sillage": "Light",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Casual"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    }
+  ],
+  "categories": ["All", "Women", "Men", "Unisex"],
+  "brands": [
+    "Chanel",
+    "Dior",
+    "Tom Ford",
+    "Yves Saint Laurent",
+    "Versace",
+    "Jo Malone",
+    "Paco Rabanne",
+    "Lancôme",
+    "Burberry",
+    "Gucci",
+    "Givenchy",
+    "Calvin Klein"
+  ]
+}

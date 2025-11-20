@@ -1,14 +1,53 @@
 .category-sidebar {
-  position: absolute;
-  top: 160px; 
+  position: fixed;
+  top: 80px;
   left: 0;
-  width: 250px;
-  height: auto;
-  max-height: calc(100vh - 80px); 
+  width: 270px;
+  height: calc(100vh - 80px);
   background: var(--color-cream);
   padding: 20px;
   overflow-y: auto;
   z-index: 100;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-header {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--color-tan);
+}
+
+.products-page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.products-container {
+  margin-left: 0;
+  padding-bottom: 80px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Desktop Layout */
+@media (min-width: 992px) {
+  .products-container {
+    margin-left: 290px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 991px) {
+  .category-sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    padding: 15px;
+  }
+
+  .products-container {
+    padding: 15px;
+  }
 }
 
 .sidebar-section h5 {
@@ -38,11 +77,10 @@
 }
 
 .sidebar-section {
-  padding: 5px; 
-  border-bottom: 1px solid #ccc; 
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
 .sidebar-section:last-child {
-  border-bottom: none; 
+  border-bottom: none;
 }
-
