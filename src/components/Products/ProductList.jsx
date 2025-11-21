@@ -14,7 +14,7 @@ export default function ProductList({ products }) {
   };
 
   return (
-    <Row className="g-4">
+    <Row className="g-4 pb-4">
       {products.map((product) => (
         <Col key={product.id} xs={12} sm={6} md={4} lg={3}>
           <Link
