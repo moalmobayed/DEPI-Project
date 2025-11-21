@@ -36,7 +36,10 @@ export function FeatureSection() {
                     <h2 className="featured-title">  
                         {collection.title}
                     </h2>
-                    <button className="featured-button"> 
+                    <button 
+                        className="featured-button"
+                        onClick={() => window.location.href = '/products'}
+                    > 
                         <span>{collection.buttonText}</span>  
                     </button>
                 </div>
