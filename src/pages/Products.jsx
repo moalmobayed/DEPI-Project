@@ -97,10 +97,10 @@ export default function Products() {
       </Offcanvas>
 
       {/* Main Content */}
-      <Container className="products-container mt-5">
+      <div className="products-container mt-5">
         <h1 className="text-center mb-4">Perfume Collection</h1>
         <ProductList products={filteredPerfumes} />
-      </Container>
+      </div>
     </div>
   );
 }
