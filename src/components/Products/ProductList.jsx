@@ -1,8 +1,18 @@
-import { Row, Col, Card, Badge } from "react-bootstrap";
+import { Row, Col, Card, Badge, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { ShoppingCart } from "lucide-react";
+import { useCart } from "../../context/CartContext";
 import "./Card.css";
 
 export default function ProductList({ products }) {
+  const { addToCart } = useCart();
+
+  const handleAddToCart = (e, product) => {
+    e.preventDefault();
+    e.stopPropagation();
+    addToCart(product);
+  };
+
   return (
     <Row className="g-4">
       {products.map((product) => (
@@ -16,6 +26,7 @@ export default function ProductList({ products }) {
                 <Badge
                   bg="danger"
                   className="position-absolute top-0 start-0 m-2"
+                  style={{ zIndex: 2 }}
                 >
                   {product.discount}% OFF
                 </Badge>
@@ -24,6 +35,7 @@ export default function ProductList({ products }) {
                 <Badge
                   bg="success"
                   className="position-absolute top-0 end-0 m-2"
+                  style={{ zIndex: 2 }}
                 >
                   NEW
                 </Badge>
@@ -55,9 +67,14 @@ export default function ProductList({ products }) {
                   </span>
                 </div>
               </div>
-              <button className="cart-btn">
-                <i className="bi bi-cart"></i>
-              </button>
+              <Button
+                className="cart-btn"
+                variant="dark"
+                size="sm"
+                onClick={(e) => handleAddToCart(e, product)}
+              >
+                <ShoppingCart size={18} />
+              </Button>
             </Card>
           </Link>
         </Col>
