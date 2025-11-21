@@ -32,6 +32,7 @@
 @media (min-width: 992px) {
   .products-container {
     margin-left: 290px;
+    margin-right: 20px;
     padding-bottom: 20px;
   }
 }
