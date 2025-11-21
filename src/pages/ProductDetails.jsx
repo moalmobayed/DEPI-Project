@@ -1,38 +1,34 @@
 import { Container, Spinner } from "react-bootstrap";
-import Product from '../components/Product';
-import Breadcrumb from '../components/Breadcrumb';
-import './Products.css';
-import { useState, useEffect } from 'react';
+import Product from "../components/Product";
+import Breadcrumb from "../components/Breadcrumb";
+import "./Products.css";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import icon1 from '../assets/images/icon-1.png';
-import icon2 from '../assets/images/icon-2.png';
-import icon3 from '../assets/images/icon-3.png';
-import Reviews from '../components/Reviews';
-import frame1 from '../assets/images/frame1.png';
-import frame2 from '../assets/images/frame2.png';
-import frame3 from '../assets/images/frame3.png';
-import frame4 from '../assets/images/frame4.png';
-import frame5 from '../assets/images/frame5.png';
-import RecommendedProducts from '../components/RecommendedProducts';
+import icon1 from "../assets/images/icon-1.png";
+import icon2 from "../assets/images/icon-2.png";
+import icon3 from "../assets/images/icon-3.png";
+import Reviews from "../components/Reviews";
+import frame1 from "../assets/images/frame1.png";
+import frame2 from "../assets/images/frame2.png";
+import frame3 from "../assets/images/frame3.png";
+import frame4 from "../assets/images/frame4.png";
+import frame5 from "../assets/images/frame5.png";
+import RecommendedProducts from "../components/RecommendedProducts";
+import productsData from "../data/products.json";
 
 function ProductDetails() {
-  const { id } = useParams();   
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
   const category = "Fragrances";
 
   useEffect(() => {
-    fetch(`https://dummyjson.com/products/${id}`)
-      .then(res => res.json())
-      .then(resData => {
-        setProduct(resData);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.log(err);
-        setLoading(false);
-      });
+    const foundProduct = productsData.perfumes.find(
+      (p) => p.id === parseInt(id)
+    );
+    setProduct(foundProduct);
+    setLoading(false);
   }, [id]);
 
   if (loading) {
@@ -50,28 +46,24 @@ function ProductDetails() {
 
   return (
     <Container className="mt-5">
-
-     
-      <Breadcrumb category={category} product={product.title} />
-
-      
+      <Breadcrumb category={category} product={product.name} />
       <div className="products-section">
         <div className="products-gallery">
           <Product
             key={product.id}
-            title={product.title}
+            title={product.name}
             images={product.images}
-            discount={product.discountPercentage}
+            discount={product.discount}
             price={product.price}
           />
         </div>
 
-        <div className="product-details-section" style={{ marginTop: '20px' }}>
+        <div className="product-details-section" style={{ marginTop: "20px" }}>
           <div className="title-bar">
-            <h2 className="pro-title">{product.title}</h2>
+            <h2 className="pro-title">{product.name}</h2>
 
             <div className="prices">
-              <span className="old-price">${product.price}</span>
+              <span className="old-price">${product.originalPrice}</span>
             </div>
           </div>
 
@@ -79,9 +71,9 @@ function ProductDetails() {
 
           <h3 className="small-title">Dimensions:</h3>
           <ul className="dimentions-list">
-            <li>width : {product.dimensions?.width}</li>
-            <li>height : {product.dimensions?.height}</li>
-            <li>depth : {product.dimensions?.depth}</li>
+            <li>width : N/A</li>
+            <li>height : N/A</li>
+            <li>depth : N/A</li>
           </ul>
 
           <button className="add-cart">add to bag</button>
@@ -127,7 +119,6 @@ function ProductDetails() {
         <RecommendedProducts />
       </div>
 
-      
       <Reviews productId={product.id} />
 
       <div className="transparent-section">

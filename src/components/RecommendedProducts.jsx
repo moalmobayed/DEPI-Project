@@ -1,26 +1,15 @@
 import { useEffect, useState } from "react";
-import '../pages/Products.css';
+import "../pages/Products.css";
+import productsData from "../data/products.json";
 
 function RecommendedProducts({ currentId }) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    async function fetchProducts() {
-      try {
-        const res = await fetch("https://dummyjson.com/products/category/fragrances");
-        const data = await res.json();
-        
-      
-        const filtered = data.products.filter(p => p.id !== Number(currentId));
-
-      
-        setProducts(filtered.slice(0, 4));
-      } catch (err) {
-        console.log(err);
-      }
-    }
-
-    fetchProducts();
+    const filtered = productsData.perfumes.filter(
+      (p) => p.id !== Number(currentId)
+    );
+    setProducts(filtered.slice(0, 4));
   }, [currentId]);
 
   return (
@@ -30,10 +19,10 @@ function RecommendedProducts({ currentId }) {
         {products.map((product) => (
           <div className="rec-card" key={product.id}>
             <img
-              src={product.thumbnail || product.images?.[0] || "https://via.placeholder.com/150"}
-              alt={product.title}
+              src={product.images?.[0] || "https://via.placeholder.com/150"}
+              alt={product.name}
             />
-            <p>{product.title}</p>
+            <p>{product.name}</p>
           </div>
         ))}
       </div>
