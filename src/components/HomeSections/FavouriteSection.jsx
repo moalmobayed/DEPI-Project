@@ -58,13 +58,7 @@ export function ProductCarousel() {
             />
           </button>
         </div>
-        <div
-          className="d-flex gap-3 w-100 overflow-hidden"
-          style={{
-            width: "100%",
-            height: "477px",
-          }}
-        >
+        <div className="d-flex gap-3 w-100 overflow-hidden">
           <div
             className="d-flex gap-3"
             style={{
