@@ -24,13 +24,14 @@ export function CartProvider({ children }) {
 
   const addToCart = (product, selectedSize = null) => {
     setCartItems((prevItems) => {
+      const size = selectedSize || product.sizes[0];
       const existingItem = prevItems.find(
-        (item) => item.id === product.id && item.selectedSize === selectedSize
+        (item) => item.id === product.id && item.selectedSize === size
       );
 
       if (existingItem) {
         return prevItems.map((item) =>
-          item.id === product.id && item.selectedSize === selectedSize
+          item.id === product.id && item.selectedSize === size
             ? { ...item, quantity: item.quantity + 1 }
             : item
         );
@@ -41,7 +42,7 @@ export function CartProvider({ children }) {
         {
           ...product,
           quantity: 1,
-          selectedSize: selectedSize || product.sizes[0],
+          selectedSize: size,
         },
       ];
     });
