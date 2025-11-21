@@ -7,7 +7,7 @@ export function HeroSection() {
                 <h1>Discover Your Perfect Scent</h1>
                 <p>Explore our curated collection of premium perfumes from around the
                     world. Find the fragrance that defines you.</p>
-                <a href="#" className="shop">Shop Now</a>
+                <a href="/products" className="shop">Shop Now</a>
             </div>
         </section>
     );
