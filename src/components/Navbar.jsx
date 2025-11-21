@@ -5,11 +5,16 @@ import {
   SignUpButton,
   UserButton,
 } from "@clerk/clerk-react";
-import { Navbar as BsNavbar, Container, Nav } from "react-bootstrap";
+import { Navbar as BsNavbar, Container, Nav, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { ShoppingCart } from "lucide-react";
+import { useCart } from "../context/CartContext";
 import "./Navbar.css";
 
 function Navbar() {
+  const { getCartCount } = useCart();
+  const cartCount = getCartCount();
+
   return (
     <BsNavbar
       style={{
@@ -50,8 +55,22 @@ function Navbar() {
           </Nav>
 
           <Nav className="custom-nav-links">
-            <Nav.Link as={Link} to="/cart" className="no-underline">
-              🛒 Cart
+            <Nav.Link
+              as={Link}
+              to="/cart"
+              className="no-underline position-relative"
+            >
+              <ShoppingCart size={20} />
+              {cartCount > 0 && (
+                <Badge
+                  bg="danger"
+                  pill
+                  className="position-absolute top-0 start-100 translate-middle"
+                  style={{ fontSize: "0.7rem" }}
+                >
+                  {cartCount}
+                </Badge>
+              )}
             </Nav.Link>
           </Nav>
 
