@@ -1,6 +1,6 @@
 # Perfume E‑Commerce (React + Vite)
 
-Clean, modern e‑commerce front‑end for perfumes. Built with React, Vite, Bootstrap, and React Router. Product data comes from DummyJSON; authentication via Clerk is planned.
+Clean, modern e‑commerce front‑end for luxury perfumes. Built with React, Vite, Bootstrap, and React Router. Features a curated collection of designer fragrances with advanced filtering and cart functionality.
 
 ## Quick Start
 
@@ -19,26 +19,46 @@ Scripts:
 ## Tech Stack
 
 - React 19 + Vite
-- React Router
+- React Router v6
 - Bootstrap 5 + React‑Bootstrap
+- Context API for Cart Management
+- Clerk for Authentication
+- Lucide React for Icons
 - ESLint (React, Hooks, Refresh)
-- Data: DummyJSON products API
-- Auth: Clerk (to be integrated)
+- Data: Local JSON product database
 
 ## Project Structure
 
 ```
 src/
 ├─ components/
-│  ├─ Navbar.jsx
-│  └─ Footer.jsx
+│  ├─ Navbar.jsx/css
+│  ├─ Footer.jsx/css
+│  ├─ HomeSections/
+│  │  ├─ HeroSection.jsx
+│  │  ├─ CategorySection.jsx
+│  │  ├─ FavouriteSection.jsx
+│  │  ├─ FeatureSection.jsx
+│  │  ├─ BenefitsSection.jsx
+│  │  ├─ MissionSection.jsx
+│  │  ├─ TestimonialSection.jsx
+│  │  ├─ ContentSections.jsx
+│  │  └─ SocialFeedSection.jsx
+│  └─ Products/
+│     ├─ Sidebar.jsx/css
+│     ├─ ProductList.jsx
+│     └─ Card.css
 ├─ pages/
-│  ├─ Home.jsx
+│  ├─ Home.jsx/css
 │  ├─ Products.jsx
 │  ├─ ProductDetails.jsx
 │  ├─ Cart.jsx
 │  └─ About.jsx
-├─ assets/
+├─ context/
+│  └─ CartContext.jsx
+├─ data/
+│  └─ products.json
+├─ assets/images/
 ├─ App.jsx
 ├─ App.css
 └─ main.jsx
@@ -46,11 +66,57 @@ src/
 
 ## Routing
 
-- `/` → Home
-- `/products` → Product listing
-- `/product/:id` → Product details
-- `/cart` → Shopping cart
-- `/about` → About
+- `/` → Home with hero, categories, favorites, and features
+- `/products` → Product listing with filtering sidebar
+- `/product/:id` → Product details with image gallery and cart actions
+- `/cart` → Shopping cart with quantity management
+- `/about` → About page
+
+## Features
+
+### Authentication
+
+- User authentication powered by Clerk
+- Sign in / Sign up flows
+- User profile management
+- Protected routes for cart and checkout
+
+### Product Catalog
+
+- 24 luxury perfumes from top brands (Chanel, Dior, Tom Ford, Creed, etc.)
+- Categories: Women, Men, Unisex
+- Dynamic filtering by:
+  - Category
+  - Brand (23+ brands)
+  - Price range ($0-$300)
+  - Minimum rating (3.0-4.5★)
+- Search functionality
+- Best seller highlights
+
+### Shopping Experience
+
+- Product cards with discount badges
+- Detailed product pages with:
+  - Image carousel
+  - Size selection
+  - Color options
+  - Sustainability indicators
+  - Full fragrance descriptions
+- Add to cart with size/quantity selection
+- Cart management (add, remove, update quantities)
+- Context API-based cart state
+
+### Home Page Sections
+
+- Hero section with call-to-action
+- Category showcase (Women, Men, Unisex)
+- Perfume favorites carousel
+- Feature highlights
+- Benefits section
+- Mission statement
+- Customer testimonials
+- Content sections
+- Social media feed
 
 ## Styling and Colors
 
@@ -101,29 +167,91 @@ Usage example:
 </div>
 ```
 
-## API
+## Product Data Structure
 
-DummyJSON Products API:
+Products are stored in `src/data/products.json`:
 
-- All products: `https://dummyjson.com/products`
-- Single product: `https://dummyjson.com/products/{id}`
-- Search: `https://dummyjson.com/products/search?q={query}`
-- Categories: `https://dummyjson.com/products/categories`
-- By category: `https://dummyjson.com/products/category/{category}`
+```json
+{
+  "perfumes": [
+    {
+      "id": 1,
+      "name": "Chanel No. 5 Eau de Parfum",
+      "brand": "Chanel",
+      "category": "Women",
+      "price": 167,
+      "originalPrice": 239,
+      "discount": 30,
+      "rating": 5.0,
+      "reviewCount": 2,
+      "images": ["..."],
+      "description": "...",
+      "sizes": ["50ml", "100ml", "150ml"],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    }
+  ],
+  "categories": ["All", "Women", "Men", "Unisex"],
+  "brands": ["Chanel", "Dior", "Tom Ford", ...]
+}
+```
 
 ## Development Notes
 
 - Router mounting is in `src/main.jsx` using `BrowserRouter`.
-- Global navigation lives in `src/components/Navbar.jsx`.
+- App wrapped with `ClerkProvider` for authentication.
+- Global navigation lives in `src/components/Navbar.jsx` with Clerk user controls.
 - Footer is in `src/components/Footer.jsx`.
+- Cart state managed via Context API in `src/context/CartContext.jsx`.
+- Sidebar uses sticky positioning (desktop) and static (mobile).
+- Product images sourced from Unsplash.
 - Linting uses ESLint with React/Hook/Refresh plugins. Run `npm run lint`.
 
-## Clerk (Authentication) – Planned
+## Clerk Authentication Setup
 
-Steps to integrate when ready:
+1. Install Clerk: `npm install @clerk/clerk-react`
+2. Set environment variables in `.env`:
+   ```
+   VITE_CLERK_PUBLISHABLE_KEY=your_publishable_key
+   ```
+3. Wrap app with `ClerkProvider` in `main.jsx`
+4. Use `SignInButton`, `SignUpButton`, and `UserButton` components in Navbar
+5. Protect routes with `SignedIn` and `SignedOut` components
 
-1. `npm install @clerk/clerk-react`
-2. Create Clerk app and get keys
-3. Wrap the app with `ClerkProvider`
-4. Add `SignInButton` / `UserButton` in the Navbar
-5. Protect cart/checkout routes as needed
+## SEO & Meta Tags
+
+The project includes comprehensive SEO meta tags in `index.html`:
+
+- Primary meta tags (title, description, keywords)
+- Open Graph tags for social media sharing (Facebook, LinkedIn)
+- Twitter Card tags for Twitter sharing
+- Mobile and PWA meta tags
+- Canonical URL
+
+## Responsive Design
+
+- Mobile-first approach
+- Breakpoints:
+  - Mobile: < 576px
+  - Tablet: 576px - 991px
+  - Desktop: ≥ 992px
+- Sidebar toggles between fixed (desktop) and static (mobile)
+- Product grid adjusts from 1-4 columns based on screen size
+- Carousel adapts for touch devices
+
+## Future Enhancements
+
+- [ ] Wishlist functionality
+- [ ] Product reviews and ratings
+- [ ] Advanced search with autocomplete
+- [ ] Order history and tracking
+- [ ] Payment integration (Stripe/PayPal)
+- [ ] Email notifications
+- [ ] Multiple currency support
+- [ ] Dark mode toggle
+- [ ] Admin dashboard for product management
