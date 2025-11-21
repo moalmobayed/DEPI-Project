@@ -209,7 +209,7 @@
       "colors": ["Cream"],
       "sizes": ["30ml", "100ml"],
       "images": [
-        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
         "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
         "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
       ],
@@ -467,6 +467,474 @@
       "inStock": true,
       "isNew": false,
       "isBestSeller": true
+    },
+    {
+      "id": 13,
+      "name": "Viktor & Rolf Flowerbomb",
+      "brand": "Viktor & Rolf",
+      "category": "Women",
+      "price": 178,
+      "originalPrice": 225,
+      "discount": 21,
+      "rating": 4.9,
+      "reviewCount": 312,
+      "color": "Pink",
+      "colors": ["Pink"],
+      "sizes": ["50ml", "100ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
+      ],
+      "description": "Flowerbomb is an explosive floral bouquet. Features jasmine, freesia, rose, and orchid with patchouli base. A powerful and addictive fragrance that makes a statement.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Very long-lasting (10+ hours)",
+        "sillage": "Very Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Special occasions"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 14,
+      "name": "Armani Code Pour Homme",
+      "brand": "Giorgio Armani",
+      "category": "Men",
+      "price": 125,
+      "originalPrice": 160,
+      "discount": 22,
+      "rating": 4.6,
+      "reviewCount": 187,
+      "color": "Black",
+      "colors": ["Black"],
+      "sizes": ["50ml", "75ml", "125ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800"
+      ],
+      "description": "Armani Code is a sophisticated and seductive fragrance. Bergamot and lemon open, followed by star anise and olive blossom. The base features tobacco, tonka bean, and leather.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Long-lasting (8+ hours)",
+        "sillage": "Moderate to Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Date night"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 15,
+      "name": "Marc Jacobs Daisy",
+      "brand": "Marc Jacobs",
+      "category": "Women",
+      "price": 98,
+      "originalPrice": 125,
+      "discount": 22,
+      "rating": 4.7,
+      "reviewCount": 256,
+      "color": "Yellow",
+      "colors": ["Yellow"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      ],
+      "description": "Daisy is a fresh and whimsical fragrance. Strawberry, violet leaves, and grapefruit create a playful opening. The heart features gardenia and violet, with musk and vanilla in the base.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Casual"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 16,
+      "name": "Creed Aventus",
+      "brand": "Creed",
+      "category": "Men",
+      "price": 435,
+      "originalPrice": 550,
+      "discount": 21,
+      "rating": 5.0,
+      "reviewCount": 428,
+      "color": "Black",
+      "colors": ["Black"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
+      ],
+      "description": "Aventus is a legendary masculine fragrance. Pineapple, blackcurrant, and bergamot open this masterpiece. The heart features birch, patchouli, and jasmine, with musk and oakmoss in the base.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": false
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Very long-lasting (12+ hours)",
+        "sillage": "Very Strong",
+        "season": "All seasons",
+        "occasion": "Special occasions, Luxury events"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 17,
+      "name": "Dolce & Gabbana Light Blue",
+      "brand": "Dolce & Gabbana",
+      "category": "Women",
+      "price": 92,
+      "originalPrice": 118,
+      "discount": 22,
+      "rating": 4.8,
+      "reviewCount": 341,
+      "color": "Blue",
+      "colors": ["Blue"],
+      "sizes": ["50ml", "100ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59d75?w=800"
+      ],
+      "description": "Light Blue captures the Mediterranean spirit. Sicilian lemon and apple blend with jasmine and white rose. The base features cedarwood, amber, and musk for a fresh, sophisticated scent.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Vacation"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 18,
+      "name": "Hermès Terre d'Hermès",
+      "brand": "Hermès",
+      "category": "Men",
+      "price": 168,
+      "originalPrice": 215,
+      "discount": 22,
+      "rating": 4.9,
+      "reviewCount": 195,
+      "color": "Orange",
+      "colors": ["Orange"],
+      "sizes": ["50ml", "100ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800"
+      ],
+      "description": "Terre d'Hermès is an earthy and woody fragrance. Grapefruit and pepper create a fresh opening. The heart features flint and geranium, while vetiver and cedar dominate the base.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Toilette",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "All seasons",
+        "occasion": "Daily wear, Office"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 19,
+      "name": "Prada Candy",
+      "brand": "Prada",
+      "category": "Women",
+      "price": 135,
+      "originalPrice": 170,
+      "discount": 21,
+      "rating": 4.6,
+      "reviewCount": 168,
+      "color": "Pink",
+      "colors": ["Pink"],
+      "sizes": ["50ml", "80ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
+      ],
+      "description": "Prada Candy is a sweet and sensual fragrance. Caramel dominates with white musk and vanilla creating a warm, addictive scent. Modern and sophisticated with a playful edge.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Date night"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": false
+    },
+    {
+      "id": 20,
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "category": "Men",
+      "price": 152,
+      "originalPrice": 195,
+      "discount": 22,
+      "rating": 4.9,
+      "reviewCount": 387,
+      "color": "Blue",
+      "colors": ["Blue"],
+      "sizes": ["50ml", "100ml", "150ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800",
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+        "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800"
+      ],
+      "description": "Bleu de Chanel is an aromatic woody fragrance. Citrus and mint create freshness, while cedar and sandalwood provide depth. A modern classic for the sophisticated man.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "All seasons",
+        "occasion": "Daily wear, Office, Evening"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
+    },
+    {
+      "id": 21,
+      "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+      "brand": "Maison Francis Kurkdjian",
+      "category": "Unisex",
+      "price": 325,
+      "originalPrice": 415,
+      "discount": 22,
+      "rating": 5.0,
+      "reviewCount": 542,
+      "color": "Red",
+      "colors": ["Red"],
+      "sizes": ["35ml", "70ml", "200ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+        "https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800",
+        "https://images.unsplash.com/photo-1610465299996-e6c2496838d8?w=800"
+      ],
+      "description": "Baccarat Rouge 540 is a luminous and sophisticated fragrance. Jasmine and saffron blend with cedarwood and ambergris. An iconic scent that creates a captivating aura.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Extrait de Parfum",
+        "longevity": "Very long-lasting (12+ hours)",
+        "sillage": "Very Strong",
+        "season": "All seasons",
+        "occasion": "Special occasions, Luxury events"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isBestSeller": true
+    },
+    {
+      "id": 22,
+      "name": "Narciso Rodriguez For Her",
+      "brand": "Narciso Rodriguez",
+      "category": "Women",
+      "price": 115,
+      "originalPrice": 148,
+      "discount": 22,
+      "rating": 4.7,
+      "reviewCount": 219,
+      "color": "Pink",
+      "colors": ["Pink"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
+      ],
+      "description": "For Her is a sensual and feminine fragrance. Heart of musk is surrounded by peach, rose, and amber. An elegant and unforgettable scent for the modern woman.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Long-lasting (8-10 hours)",
+        "sillage": "Moderate to Strong",
+        "season": "All seasons",
+        "occasion": "Evening, Date night"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": false
+    },
+    {
+      "id": 23,
+      "name": "Acqua di Parma Colonia",
+      "brand": "Acqua di Parma",
+      "category": "Unisex",
+      "price": 185,
+      "originalPrice": 235,
+      "discount": 21,
+      "rating": 4.8,
+      "reviewCount": 143,
+      "color": "Yellow",
+      "colors": ["Yellow"],
+      "sizes": ["50ml", "100ml", "180ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800",
+        "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+        "https://images.unsplash.com/photo-1610465299996-e6c2496838d8?w=800"
+      ],
+      "description": "Colonia is a timeless Italian classic. Citrus notes of Sicilian lemon and bergamot blend with lavender and rosemary. The base features vetiver, sandalwood, and patchouli.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": true,
+        "cleanerChemistry": true
+      },
+      "details": {
+        "type": "Eau de Cologne",
+        "longevity": "Moderate (6-8 hours)",
+        "sillage": "Moderate",
+        "season": "Spring, Summer",
+        "occasion": "Daily wear, Office"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": false
+    },
+    {
+      "id": 24,
+      "name": "Thierry Mugler Angel",
+      "brand": "Mugler",
+      "category": "Women",
+      "price": 148,
+      "originalPrice": 190,
+      "discount": 22,
+      "rating": 4.5,
+      "reviewCount": 276,
+      "color": "Blue",
+      "colors": ["Blue"],
+      "sizes": ["50ml", "100ml"],
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800"
+      ],
+      "description": "Angel is a bold and gourmand fragrance. Sweet notes of caramel and chocolate blend with patchouli and vanilla. A unique and unforgettable oriental scent.",
+      "features": [
+        "Free Shipping - On all U.S. orders over $100",
+        "Easy Returns - Fast and returns 'ship-up' Return at Returns Portal",
+        "Send It As A Gift - Add a free personalized note during checkout"
+      ],
+      "sustainability": {
+        "renewableMaterials": false,
+        "cleanerChemistry": false
+      },
+      "details": {
+        "type": "Eau de Parfum",
+        "longevity": "Very long-lasting (10+ hours)",
+        "sillage": "Very Strong",
+        "season": "Fall, Winter",
+        "occasion": "Evening, Special occasions"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isBestSeller": true
     }
   ],
   "categories": ["All", "Women", "Men", "Unisex"],
@@ -482,6 +950,17 @@
     "Burberry",
     "Gucci",
     "Givenchy",
-    "Calvin Klein"
+    "Calvin Klein",
+    "Viktor & Rolf",
+    "Giorgio Armani",
+    "Marc Jacobs",
+    "Creed",
+    "Dolce & Gabbana",
+    "Hermès",
+    "Prada",
+    "Maison Francis Kurkdjian",
+    "Narciso Rodriguez",
+    "Acqua di Parma",
+    "Mugler"
   ]
 }
