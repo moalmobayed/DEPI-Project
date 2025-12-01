@@ -11,12 +11,12 @@ import Footer from "./components/Footer";
 import { Spinner, Container } from "react-bootstrap";
 import "./App.css";
 
-// Lazy load pages
-const Home = lazy(() => import("./pages/Home"));
-const Products = lazy(() => import("./pages/Products"));
-const ProductDetails = lazy(() => import("./pages/ProductDetails"));
-const Cart = lazy(() => import("./pages/Cart"));
-const About = lazy(() => import("./pages/About"));
+// Lazy load pages (مع إضافة الامتداد .jsx)
+const Home = lazy(() => import("./pages/Home.jsx"));
+const Products = lazy(() => import("./pages/Products.jsx"));
+const ProductDetails = lazy(() => import("./pages/ProductDetails.jsx"));
+const Cart = lazy(() => import("./pages/Cart.jsx"));
+const About = lazy(() => import("./pages/About.jsx"));
 
 // Loading fallback component
 function PageLoader() {
