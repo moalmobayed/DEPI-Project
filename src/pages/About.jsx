@@ -136,7 +136,7 @@ function About() {
             <Button 
             variant="light"
             onClick={() => window.open("http://localhost:5173/products", "_blank")}
-            className="buy-button mt-3 buy-button">
+            className="mt-3 buy-button">
             Buy Now
             </Button>
           </Col>
