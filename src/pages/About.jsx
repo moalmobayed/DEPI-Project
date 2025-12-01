@@ -8,13 +8,10 @@ import perfume_video from "../assets/images/perfume_video.mp4";
 
 function About() {
   return (
-    /*استبدال container غير الموجودة بـ div*/
     <div className="about-page my-5"> 
-      
       {/* About us */}
       <Container className="my-5">
         <Row className="align-items-center mb-5 g-5">
-          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-6 على المتوسطة فما فوق */}
           <Col xs={12} md={6} className="p-3"> 
             <h1 className="display-4 fw-bold mb-4">About Us</h1> 
 
@@ -32,7 +29,6 @@ function About() {
               </p>
             </div>
           </Col>
-          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-6 على المتوسطة فما فوق */}
           <Col xs={12} md={6}> 
             <img 
               src={storyImg} 
@@ -48,7 +44,7 @@ function About() {
       {/* Why choose us */}
       <Container fluid className="choose py-5">
         <Row className="text-center mb-5 f-row">
-          <Col xs={12}> {/* تم التأكد من استخدام col-12 لعمود النص الرئيسي */}
+          <Col xs={12}>
             <h1 className="mb-5 choose-us">Why Choose Us</h1>
             <p className="lead">
               By using clean, skin-kind ingredients that smell great and eliminate B.O. Period.
@@ -62,7 +58,6 @@ function About() {
         </Row>
 
         <Row className="text-center g-4 s-row">
-          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
           <Col xs={12} md={4}> 
             <img src={perfume}
             alt="Perfume_Image"
@@ -75,7 +70,6 @@ function About() {
             </p>
           </Col>
 
-          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
           <Col xs={12} md={4}> 
             <img src={leaf}
             alt="Leaf_Image"
@@ -88,7 +82,6 @@ function About() {
             </p>
           </Col>
 
-          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
           <Col xs={12} md={4}> 
             <img src={globe}
             alt="Globe_Image"
@@ -123,7 +116,6 @@ function About() {
         </Row>
 
         <Row className="text-center justify-content-center">
-          {/* تم التأكد من استخدام lg={12} و md={10} لضبط عرض النص */}
           <Col xs={12} lg={12} md={10}> 
             <h1 className="display-4 fw-bold mb-3">Our Vision</h1>
             <p className="lead text-muted">
@@ -138,7 +130,6 @@ function About() {
       {/* Trending Now */}
       <Container fluid className="trending"> 
         <Row className="text-center justify-content-center pt-5 pb-5">
-          {/* تم التأكد من استخدام lg={8} و md={10} لضبط عرض النص */}
           <Col xs={12} lg={8} md={10}> 
             <h1 className="display-2 fw-bold mb-5 trending-title text-white">Trending Now</h1>
             <p className="lead text-white mb-4">
