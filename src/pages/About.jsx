@@ -8,11 +8,14 @@ import perfume_video from "../assets/images/perfume_video.mp4";
 
 function About() {
   return (
-    /*About us*/
-    <container className="my-5">
+    /*استبدال container غير الموجودة بـ div*/
+    <div className="about-page my-5"> 
+      
+      {/* About us */}
       <Container className="my-5">
         <Row className="align-items-center mb-5 g-5">
-          <Col md={6} className="p-3">
+          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-6 على المتوسطة فما فوق */}
+          <Col xs={12} md={6} className="p-3"> 
             <h1 className="display-4 fw-bold mb-4">About Us</h1> 
 
             <div className="mb-4"> 
@@ -29,7 +32,8 @@ function About() {
               </p>
             </div>
           </Col>
-          <Col md={6}>
+          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-6 على المتوسطة فما فوق */}
+          <Col xs={12} md={6}> 
             <img 
               src={storyImg} 
               alt="Perfume_Image" 
@@ -39,10 +43,12 @@ function About() {
         </Row>
       </Container>
 
+      ---
+
       {/* Why choose us */}
       <Container fluid className="choose py-5">
         <Row className="text-center mb-5 f-row">
-          <Col>
+          <Col xs={12}> {/* تم التأكد من استخدام col-12 لعمود النص الرئيسي */}
             <h1 className="mb-5 choose-us">Why Choose Us</h1>
             <p className="lead">
               By using clean, skin-kind ingredients that smell great and eliminate B.O. Period.
@@ -56,7 +62,8 @@ function About() {
         </Row>
 
         <Row className="text-center g-4 s-row">
-          <Col md={4}>
+          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
+          <Col xs={12} md={4}> 
             <img src={perfume}
             alt="Perfume_Image"
             className="icon-style" />
@@ -68,7 +75,8 @@ function About() {
             </p>
           </Col>
 
-          <Col md={4}>
+          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
+          <Col xs={12} md={4}> 
             <img src={leaf}
             alt="Leaf_Image"
             className="icon-style" />
@@ -80,7 +88,8 @@ function About() {
             </p>
           </Col>
 
-          <Col md={4}>
+          {/* تم تعديل Col لاستخدام col-12 على الشاشات الصغيرة ثم md-4 على المتوسطة فما فوق */}
+          <Col xs={12} md={4}> 
             <img src={globe}
             alt="Globe_Image"
             className="icon-style" />
@@ -93,6 +102,8 @@ function About() {
           </Col>
         </Row>
       </Container>
+
+      ---
 
       {/* Our vision */}
       <Container className="my-5"> 
@@ -108,12 +119,12 @@ function About() {
               controls
               />
             </div>
-
           </Col>
         </Row>
 
         <Row className="text-center justify-content-center">
-          <Col lg={12} md={10}>
+          {/* تم التأكد من استخدام lg={12} و md={10} لضبط عرض النص */}
+          <Col xs={12} lg={12} md={10}> 
             <h1 className="display-4 fw-bold mb-3">Our Vision</h1>
             <p className="lead text-muted">
             At our perfume store, we aim to provide a unique experience for fragrance enthusiasts, where exquisite taste meets high-quality products. Our vision is to become the go-to destination for anyone seeking distinctive scents that reflect their personality and add a touch of elegance to their day. We believe that a perfume is not just a fragrance, It is a language that expresses style and taste, which is why we carefully select each product to ensure our customers enjoy the perfect aromatic experience.
@@ -122,10 +133,13 @@ function About() {
         </Row>
       </Container>
 
+      ---
+      
       {/* Trending Now */}
       <Container fluid className="trending"> 
         <Row className="text-center justify-content-center pt-5 pb-5">
-          <Col lg={8} md={10}>
+          {/* تم التأكد من استخدام lg={8} و md={10} لضبط عرض النص */}
+          <Col xs={12} lg={8} md={10}> 
             <h1 className="display-2 fw-bold mb-5 trending-title text-white">Trending Now</h1>
             <p className="lead text-white mb-4">
             Discover our most sought-after fragrances that are taking the spotlight this season. Chanel Coco Noir captivates with its deep, sensual blend—perfect for those who love a bold and sophisticated presence. Calvin Klein CK One remains a timeless favorite, offering a fresh, clean scent that suits every style and every moment. For those who prefer something floral and modern, Gucci Bloom delivers a soft yet expressive aroma that embodies elegance and femininity. These top-trending picks are customer favorites for a reason—each one leaves a memorable impression.
@@ -139,7 +153,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </container>
+    </div>
   );
 }
 
