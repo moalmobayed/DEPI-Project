@@ -1,3 +1,61 @@
+@media (max-width: 767.98px) {
+.about-page .my-5 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.aboutUs .about-us {
+    font-size: 2.2rem !important; 
+    margin-bottom: 1.5rem !important;
+    text-align: center;
+}
+
+.aboutUs h3 {
+    font-size: 1.3rem;
+}
+
+.aboutUs p.lead {
+    font-size: 1rem;
+}
+
+.aboutUs img {
+    margin-top: 1rem;
+}
+
+.chooseUs .choose-us {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.icon-style {
+    width: 60px; 
+    height: auto;
+}
+
+.s-row h2 {
+    font-size: 1.3rem;
+}
+
+.ourVision .our-vision {
+    font-size: 2.2rem !important;
+}
+
+.trending-title {
+    font-size: 3rem !important; 
+    margin-bottom: 1.5rem !important;
+}
+
+.trending .row {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.buy-button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+}
+
 .icon-style {
     width: 70px;
     height: 70px;
