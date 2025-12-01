@@ -42,6 +42,7 @@ function About() {
 
       {/*Why choose us*/}
       <Container fluid className="choose py-5">
+        
         <Row className="text-center mb-5 f-row justify-content-center"> 
           <Col xs={10} md={8}> 
             <h1 className="mb-5 choose-us">Why Choose Us</h1>
@@ -57,7 +58,7 @@ function About() {
         </Row>
 
         <Row className="text-center g-4 s-row">
-          <Col xs={12} md={4}> 
+          <Col xs={12} sm={12} lg={4}> 
             <img src={perfume}
             alt="Perfume_Image"
             className="icon-style" />
@@ -69,7 +70,7 @@ function About() {
             </p>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={12} lg={4}>
             <img src={leaf}
             alt="Leaf_Image"
             className="icon-style" />
@@ -81,7 +82,7 @@ function About() {
             </p>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={12} lg={4}>
             <img src={globe}
             alt="Globe_Image"
             className="icon-style" />
