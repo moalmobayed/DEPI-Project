@@ -1,6 +1,6 @@
 import { Container, Spinner } from "react-bootstrap";
 import Product from "../components/Product";
-import Breadcrumb from "../components/Breadcrumb";
+import Breadcrumb from "../components/BreadCrumb";
 import "./Products.css";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
