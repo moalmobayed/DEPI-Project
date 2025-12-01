@@ -125,9 +125,9 @@ function About() {
       </Container>
 
       
-      {/* Trending Now */}
+      {/*Trending Now*/}
       <Container fluid className="trending"> 
-        <Row className="text-center justify-content-center pt-5 pb-5">
+        <Row className="text-center justify-content-center pt-5 pb-5 align-items-center">
           <Col xs={12} lg={8} md={10}> 
             <h1 className="display-2 fw-bold mb-5 trending-title text-white">Trending Now</h1>
             <p className="lead text-white mb-4">
@@ -135,7 +135,7 @@ function About() {
             </p>
             <Button 
             variant="light"
-            onClick={() => window.open("http://localhost:5173/products", "_blank")} 
+            onClick={() => window.open("#", "_blank")} 
             className="buy-button mt-3 buy-button">
             Buy Now
             </Button>
