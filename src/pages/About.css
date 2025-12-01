@@ -40,6 +40,10 @@
     font-size: 2.2rem !important;
 }
 
+.trending {
+    padding-bottom: 30px;
+}
+
 .trending-title {
     font-size: 3rem !important; 
     margin-bottom: 1.5rem !important;
@@ -55,6 +59,13 @@
     padding: 0.5rem 1.5rem;
 }
 }
+
+
+
+
+
+
+
 
 .icon-style {
     width: 70px;
