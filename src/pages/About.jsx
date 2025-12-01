@@ -129,13 +129,13 @@ function About() {
       <Container fluid className="trending"> 
         <Row className="text-center justify-content-center pt-5 pb-5 align-items-center">
           <Col xs={12} lg={8} md={10}> 
-            <h1 className="display-2 fw-bold mb-5 trending-title text-white">Trending Now</h1>
+            <h1 className="display-2 fw-bold mb-5 text-white trending-title">Trending Now</h1>
             <p className="lead text-white mb-4">
             Discover our most sought-after fragrances that are taking the spotlight this season. Chanel Coco Noir captivates with its deep, sensual blend—perfect for those who love a bold and sophisticated presence. Calvin Klein CK One remains a timeless favorite, offering a fresh, clean scent that suits every style and every moment. For those who prefer something floral and modern, Gucci Bloom delivers a soft yet expressive aroma that embodies elegance and femininity. These top-trending picks are customer favorites for a reason—each one leaves a memorable impression.
             </p>
             <Button 
             variant="light"
-            onClick={() => window.open("http://localhost:5173/products", "_blank")}
+            onClick={() => window.open("./ProductDetails.jsx", "_blank")}
             className="mt-3 buy-button">
             Buy Now
             </Button>
