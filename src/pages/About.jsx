@@ -39,12 +39,11 @@ function About() {
         </Row>
       </Container>
 
-      ---
 
-      {/* Why choose us */}
+      {/*Why choose us*/}
       <Container fluid className="choose py-5">
-        <Row className="text-center mb-5 f-row">
-          <Col xs={12}>
+        <Row className="text-center mb-5 f-row justify-content-center"> 
+          <Col xs={10} md={8}> 
             <h1 className="mb-5 choose-us">Why Choose Us</h1>
             <p className="lead">
               By using clean, skin-kind ingredients that smell great and eliminate B.O. Period.
@@ -70,7 +69,7 @@ function About() {
             </p>
           </Col>
 
-          <Col xs={12} md={4}> 
+          <Col xs={12} md={4}>
             <img src={leaf}
             alt="Leaf_Image"
             className="icon-style" />
@@ -82,7 +81,7 @@ function About() {
             </p>
           </Col>
 
-          <Col xs={12} md={4}> 
+          <Col xs={12} md={4}>
             <img src={globe}
             alt="Globe_Image"
             className="icon-style" />
@@ -96,7 +95,6 @@ function About() {
         </Row>
       </Container>
 
-      ---
 
       {/* Our vision */}
       <Container className="my-5"> 
@@ -125,7 +123,6 @@ function About() {
         </Row>
       </Container>
 
-      ---
       
       {/* Trending Now */}
       <Container fluid className="trending"> 
