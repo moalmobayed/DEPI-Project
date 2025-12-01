@@ -11,6 +11,10 @@
 
 }
 
+.about-us {
+    color: #593A26;
+}
+
 .choose-us {
     font-size: 60px;
     font-weight: 700;
@@ -27,6 +31,10 @@
 
 .s-row {
     padding: 0 120px;
+}
+
+.our-vision {
+    color: #593A26;
 }
 
 .trending {

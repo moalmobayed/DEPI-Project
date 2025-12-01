@@ -10,10 +10,10 @@ function About() {
   return (
     <div className="about-page my-5"> 
       {/* About us */}
-      <Container className="my-5">
+      <Container className="my-5 aboutUs">
         <Row className="align-items-center mb-5 g-5">
           <Col xs={12} md={6} className="p-3"> 
-            <h1 className="display-4 fw-bold mb-4">About Us</h1> 
+            <h1 className="display-4 fw-bold mb-5 about-us">About Us</h1> 
 
             <div className="mb-4"> 
               <h3 className="text-dark">Our Story</h3>
@@ -41,7 +41,7 @@ function About() {
 
 
       {/*Why choose us*/}
-      <Container fluid className="choose py-5">
+      <Container fluid className="choose py-5 chooseUs">
         
         <Row className="text-center mb-5 f-row justify-content-center"> 
           <Col xs={10} md={8}> 
@@ -98,7 +98,7 @@ function About() {
 
 
       {/* Our vision */}
-      <Container className="my-5"> 
+      <Container className="my-5 ourVision"> 
         <Row className="justify-content-center mb-5">
           <Col xs={12} className="text-center">
             <div className="video-wrapper">
@@ -116,7 +116,7 @@ function About() {
 
         <Row className="text-center justify-content-center">
           <Col xs={12} lg={12} md={10}> 
-            <h1 className="display-4 fw-bold mb-3">Our Vision</h1>
+            <h1 className="display-4 fw-bold mb-3 our-vision">Our Vision</h1>
             <p className="lead text-muted">
             At our perfume store, we aim to provide a unique experience for fragrance enthusiasts, where exquisite taste meets high-quality products. Our vision is to become the go-to destination for anyone seeking distinctive scents that reflect their personality and add a touch of elegance to their day. We believe that a perfume is not just a fragrance, It is a language that expresses style and taste, which is why we carefully select each product to ensure our customers enjoy the perfect aromatic experience.
             </p>
@@ -135,7 +135,7 @@ function About() {
             </p>
             <Button 
             variant="light"
-            onClick={() => window.open("#", "_blank")} 
+            onClick={() => window.open("http://localhost:5173/products", "_blank")}
             className="buy-button mt-3 buy-button">
             Buy Now
             </Button>
