@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Button, Offcanvas } from "react-bootstrap";
+import { Button, Offcanvas } from "react-bootstrap";
 import { Filter } from "lucide-react";
 import ProductList from "../components/Products/ProductList";
 import Sidebar from "../components/Products/Sidebar";

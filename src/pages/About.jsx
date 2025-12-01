@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
 import "./About.css";
 import storyImg from "../assets/images/storyImg.png";
 import perfume from "../assets/images/perfume.png";
@@ -7,6 +8,12 @@ import globe from "../assets/images/globe.png";
 import perfume_video from "../assets/images/perfume_video.mp4";
 
 function About() {
+
+  const navigate = useNavigate();
+  const goToProducts = () => {
+    navigate('/products');
+  };
+
   return (
     <div className="about-page my-5"> 
       {/* About us */}
@@ -135,9 +142,7 @@ function About() {
             </p>
             <Button
             variant="light"
-            onClick={() => {
-              window.open("#", "_blank");
-            }}
+            onClick={goToProducts}
             className="buy-button mt-3 buy-button">
             Buy Now
             </Button>
