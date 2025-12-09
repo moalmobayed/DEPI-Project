@@ -28,7 +28,7 @@ function Navbar() {
         <BsNavbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
             src="/logo.png"
-            alt="Perfume Shop Logo"
+            alt="Scentora Logo"
             width="70"
             height="70"
             className="me-2"
@@ -36,7 +36,7 @@ function Navbar() {
           <span
             style={{ color: "#C9B59C", fontWeight: "bold", fontSize: "1.8rem" }}
           >
-            Perfume Shop
+            Scentora
           </span>
         </BsNavbar.Brand>
 

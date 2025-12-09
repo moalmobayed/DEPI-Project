@@ -1,8 +1,8 @@
-import { Container, Spinner } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Product from "../components/Product";
 import Breadcrumb from "../components/BreadCrumb";
 import "./Products.css";
-import { useState, useEffect } from "react";
+import { useMemo } from "react";
 import { useParams } from "react-router-dom";
 import icon1 from "../assets/images/icon-1.png";
 import icon2 from "../assets/images/icon-2.png";
@@ -18,27 +18,14 @@ import productsData from "../data/products.json";
 
 function ProductDetails() {
   const { id } = useParams();
-  const [product, setProduct] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   const category = "Fragrances";
 
-  useEffect(() => {
-    const foundProduct = productsData.perfumes.find(
-      (p) => p.id === parseInt(id)
-    );
-    setProduct(foundProduct);
-    setLoading(false);
+  // Use useMemo to compute the product based on the id parameter
+  // This avoids synchronous setState calls within useEffect
+  const product = useMemo(() => {
+    return productsData.perfumes.find((p) => p.id === parseInt(id));
   }, [id]);
-
-  if (loading) {
-    return (
-      <Container className="mt-5 text-center">
-        <Spinner animation="border" role="status" />
-        <p>Loading product...</p>
-      </Container>
-    );
-  }
 
   if (!product) {
     return <p className="text-center mt-5">Product not found</p>;
@@ -68,13 +55,6 @@ function ProductDetails() {
           </div>
 
           <span className="rating"> Rating : {product.rating}</span>
-
-          <h3 className="small-title">Dimensions:</h3>
-          <ul className="dimentions-list">
-            <li>width : N/A</li>
-            <li>height : N/A</li>
-            <li>depth : N/A</li>
-          </ul>
 
           <button className="add-cart">add to bag</button>
 

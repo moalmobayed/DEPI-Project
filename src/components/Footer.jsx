@@ -9,14 +9,14 @@ function Footer() {
         <Row>
           <Col md={4} className="mb-3">
             <div className="d-flex align-items-center mb-2">
-              <img 
-                src="/logo.png" 
-                alt="Perfume Shop Logo"
+              <img
+                src="/logo.png"
+                alt="Scentora Logo"
                 width="60"
                 height="60"
                 className="me-2"
               />
-              <h5 className="mb-0">Perfume Shop</h5>
+              <h5 className="mb-0">Scentora</h5>
             </div>
             <p className="footer-text">
               Your destination for luxury fragrances from around the world.
@@ -65,7 +65,7 @@ function Footer() {
                 123 Fragrance Avenue, NY
               </li>
             </ul>
-            
+
             <div className="social-icons mt-3">
               <span className="social-icon">f</span>
               <span className="social-icon">in</span>
@@ -73,12 +73,12 @@ function Footer() {
             </div>
           </Col>
         </Row>
-        
+
         <hr className="footer-divider" />
         <Row>
           <Col className="text-center">
             <p className="copyright mb-0">
-              © {new Date().getFullYear()} Perfume Shop. All rights reserved.
+              © {new Date().getFullYear()} Scentora. All rights reserved.
             </p>
           </Col>
         </Row>
