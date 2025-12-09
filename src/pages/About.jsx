@@ -25,7 +25,7 @@ function About() {
             <div className="mb-4"> 
               <h3 className="text-dark">Our Story</h3>
               <p className="lead">
-                Founded in 2025, Bravo Sierra is the culmination of a dream to create products that touch hearts and elevate moments. Our journey is guided by a deep love for fragrance and a commitment to excellence.
+                Founded in 2025, Scentora is the culmination of a dream to create products that touch hearts and elevate moments. Our journey is guided by a deep love for fragrance and a commitment to excellence.
               </p>
             </div>
 
